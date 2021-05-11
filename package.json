@@ -15,5 +15,8 @@
     "json-server": "^0.16.3",
     "node-cron": "^3.0.0",
     "shelljs": "^0.8.4"
+  },
+  "engines": {
+    "node": "10.24.0"
   }
 }

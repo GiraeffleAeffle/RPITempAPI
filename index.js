@@ -10,7 +10,7 @@ app.listen(
     ()=> console.log(`it's alive on http://localhost:${PORT}`)
 )
 
-app.get('/temp', (req, res) => {
+app.get('/', (req, res) => {
     res.status(200).send({
         temp: temp()
     })
