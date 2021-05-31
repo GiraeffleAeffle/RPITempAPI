@@ -33,11 +33,9 @@ async function temp() {
         average_temp /= objlength;
         avg = average_temp;
         average_temp = 0;
-        console.log("1: ",avg);
         return avg;
     })
     .catch(error => console.log("This is an error: ", error));
-    console.log("2: ", result);
     return Math.round(result* 100) /100;
 }
 
