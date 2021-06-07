@@ -1,1 +1,1 @@
-web: node index.js
+web: node index.js & node mqtt_subs.js; wait -n
