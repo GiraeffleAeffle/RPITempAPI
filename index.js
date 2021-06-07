@@ -16,7 +16,7 @@ app.listen(
     ()=> console.log(`it's alive on http://localhost:${PORT}`)
 )
 
-app.get('/temp', async (req, res) => {
+app.get('/', async (req, res) => {
     res.status(200).send({
         temp: await temp()
     })
